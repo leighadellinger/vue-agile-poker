@@ -1,0 +1,50 @@
+@import './assets/variables';
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.poker-card {
+    margin: auto;
+    width: 100%;
+    border: 3px solid #000;
+    padding: 100px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+// Overrides
+.bg-info {
+    background-color: #FFF !important;
+}
+.navbar-dark {
+    .navbar-brand {
+        color: $red;
+        &:hover, &:focus {
+            color: #000;
+        }
+    }
+    .navbar-nav .nav-link {
+        color: $red !important;
+        opacity: 0.5;
+        &.disabled {
+            opacity: 0.25;
+        }
+        &:hover, &:focus {
+            color: #000 !important;
+        }
+    }
+}

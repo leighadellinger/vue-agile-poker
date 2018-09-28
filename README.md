@@ -1,4 +1,4 @@
-# vue-agile-poker
+# Vue Agile Poker
 
 ## Project setup
 ```
