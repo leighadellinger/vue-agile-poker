@@ -1,6 +1,6 @@
 <template>
     <b-container class="poker-card-holder">
-        <h1>{{ msg }}</h1>
+        <h1>{{ title }}</h1>
 
         <b-row>
             <b-col>
@@ -36,7 +36,7 @@
         name: 'PokerCards',
         components: {PokerCard},
         props: {
-            msg: String
+            title: String
         }
     }
 </script>

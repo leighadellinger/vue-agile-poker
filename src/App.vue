@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <Header />
-      <PokerCards msg="Welcome to Your Vue.js Planning Poker App"/>
+      <PokerCards title="Welcome to Your Vue.js Planning Poker App"/>
   </div>
 </template>
 
